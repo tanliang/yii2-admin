@@ -31,6 +31,8 @@ dump dump-yii2advanced-202109221138.sql && did some unmentioned adjustment blow:
 ### test2.zip
 base on test1.zip with project api and [yii2-protobuf](https://github.com/Languege/yii2-protobuf)
 
+used pecl protobuf, but not work
+
 ```
 composer require google/protobuf
 ```
@@ -41,4 +43,4 @@ with protobuf-3.18.0 && did some unmentioned adustment blow:
 * api/config/yii2-protobuf/proto/build.sh line 29: add python output
 * api/config/yii2-protobuf/test.py all:f add for test with python
 
-ps. tha's all for now. you may add more feature according to your work.
+ps: tha's all for now, enjoy it!
