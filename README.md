@@ -3,9 +3,7 @@ yii2-admin for new project archive
 
 ### test1.zip
 
-base on [yii2-app-advanced](https://github.com/yiisoft/yii2-app-advanced) 2.0.43 and [yii2-admin](https://github.com/myloveGy/yii2-admin)
-
-runing on phpFpm-7.4.23(docker), mysql-8.0.26(docker)
+base on [yii2-app-advanced](https://github.com/yiisoft/yii2-app-advanced) 2.0.43 and [yii2-admin](https://github.com/myloveGy/yii2-admin), runing on phpFpm-7.4.23(docker), mysql-8.0.26(docker)
 ```
 FROM php:7.4-fpm
 RUN apt-get update && apt-get install -y \
