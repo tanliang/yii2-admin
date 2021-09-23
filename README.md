@@ -22,14 +22,24 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install sockets \
     && docker-php-ext-install zip \
     && docker-php-ext-install sysvmsg 
-
-RUN pecl install protobuf \
-    && docker-php-ext-enable protobuf
 ```
 
-dump dump-yii2advanced-202109221138.sql && do some unmentioned adjustment blow:
+dump dump-yii2advanced-202109221138.sql && did some unmentioned adjustment blow:
 * common/config/main-local.php line 7: edit dsn=mysql_ip
 * common/config/main.php line 3: add language=zh-CN
 * backend/config/main-local.php line 17: add allowedIPs=docker_ip
 
-post at 2021-09-22
+### test2.zip
+base on test1.zip with project api and [yii2-protobuf](https://github.com/Languege/yii2-protobuf)
+
+```
+composer require google/protobuf
+```
+with protobuf-3.18.0 && did some unmentioned adustment blow:
+* mv vendor/language/yii2-protobuf to api/config/yii2-protobuf
+* api/web/index.php line 10: add yii2-protobuf/autoload.php
+* api/config/yii2-protobuf/autoload.php line14-16: add classPath
+* api/config/yii2-protobuf/proto/build.sh line 29: add python output
+* api/config/yii2-protobuf/test.py all:f add for test with python
+
+ps. tha's all for now. you may add more feature according to your work.
