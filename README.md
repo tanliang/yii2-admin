@@ -27,7 +27,7 @@ dump dump-yii2advanced-202109221138.sql && did some unmentioned adjustment blow:
 * backend/config/main-local.php line 17: add allowedIPs=docker_ip
 
 ### test2.zip
-base on test1.zip with project api and [yii2-protobuf](https://github.com/Languege/yii2-protobuf)
+base on test1.zip with add project api and [yii2-protobuf](https://github.com/Languege/yii2-protobuf)
 
 used pecl protobuf, but not work
 
