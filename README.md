@@ -41,4 +41,7 @@ with protobuf-3.18.0 && did some unmentioned adustment blow:
 * api/config/yii2-protobuf/proto/build.sh line 29: add python output
 * api/config/yii2-protobuf/test.py all:f add for test with python
 
+### test3.zip
+update protobuf usage in api, you may see details at api/config/yii2-protobuf/test.py
+
 ps: tha's all for now, enjoy it!
