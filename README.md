@@ -43,6 +43,6 @@ with protobuf-3.18.0 && did some unmentioned adustment blow:
 
 ### test3.zip
 update protobuf usage in api, you may see details at api/config/yii2-protobuf/test.py
-hacked yii2-admin, add model generator in backend.
+hacked yii2-admin, add model generator in backend with multi-db support (common/config/main.php).
 
 ps: tha's all for now, enjoy it!
