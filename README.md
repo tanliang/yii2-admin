@@ -34,7 +34,7 @@ used pecl protobuf, but not work
 ```
 composer require google/protobuf
 ```
-with protobuf-3.18.0 && did some unmentioned adustment blow:
+with protobuf-3.18.0 && did some unmentioned adjustment blow:
 * mv vendor/language/yii2-protobuf to api/config/yii2-protobuf
 * api/web/index.php line 10: add yii2-protobuf/autoload.php
 * api/config/yii2-protobuf/autoload.php line14-16: add classPath
